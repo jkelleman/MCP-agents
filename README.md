@@ -1,6 +1,6 @@
 # MCP Agents Portfolio - Real-World AI Solutions
 
-**By Jen Kelleman** | Principal Content Designer @ Microsoft
+**By Jen Kelleman**
 
 Building production-ready MCP agents that solve real business problems.
 
@@ -12,9 +12,9 @@ After completing the [O'Reilly Live Training on Model Context Protocol (MCP)](ht
 
 ### What I Built
 
-🎨 **Content Design Assistant** - Helps UX writers create accessible, clear content  
-📝 **Meeting Notes Organizer** - Extracts action items and decisions from meeting transcripts  
-📚 **Documentation Helper** - Searches and summarizes technical documentation
+1. **Content Design Assistant** - Helps UX writers create accessible, clear content  
+2. **Meeting Notes Organizer** - Extracts action items and decisions from meeting transcripts  
+3. **Documentation Helper** - Searches and summarizes technical documentation
 
 These agents demonstrate how MCP can transform common workplace tasks into AI-powered workflows.
 
@@ -271,11 +271,6 @@ I'm passionate about making AI accessible and useful for real work. These MCP ag
 - 💼 [LinkedIn](https://linkedin.com/in/jenniferkelleman)
 - ✍️ [Medium](https://jenkelleman.medium.com)
 - 🌐 [AI Content Design Handbook](https://jkelleman.github.io/ai-content-design-handbook/)
-- 📧 jenkelleman@microsoft.com
-
-### Other Projects
-
-- **[AI Content Design Handbook](https://github.com/jkelleman/ai-content-design-handbook)** - Comprehensive guide for UX writing and content design in the AI era
 
 ---
 
