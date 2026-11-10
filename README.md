@@ -1,3 +1,16 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="MCP Agents Portfolio banner" width="100%">
+</p>
+
+<p align="center">
+  <img alt="Python 3.10+" src="https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white">
+  <img alt="MCP" src="https://img.shields.io/badge/protocol-MCP-1e3a8a">
+  <img alt="FastMCP" src="https://img.shields.io/badge/built%20with-FastMCP-0f766e">
+  <img alt="Transport: STDIO" src="https://img.shields.io/badge/transport-STDIO-555555">
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/jkelleman/MCP-agents">
+  <img alt="Repo size" src="https://img.shields.io/github/repo-size/jkelleman/MCP-agents">
+</p>
+
 # MCP Agents Portfolio - Real-World AI Solutions
 
 **By Jen Kelleman**
@@ -6,7 +19,7 @@ Building production-ready MCP agents that solve real business problems.
 
 ---
 
-## 👋 About This Repository
+## About This Repository
 
 After completing the [O'Reilly Live Training on Model Context Protocol (MCP)](https://www.oreilly.com/live-events/create-ai-agents-with-model-context-protocol-mcp/0642572196868/0642572196851/) taught by Bruce Hopkins, I built three custom MCP agents that address everyday workflow challenges. This repository showcases both the original training materials and my practical implementations.
 
@@ -18,7 +31,7 @@ After completing the [O'Reilly Live Training on Model Context Protocol (MCP)](ht
 
 These agents demonstrate how MCP can transform common workplace tasks into AI-powered workflows.
 
-## 🌟 Why MCP Matters - Key Learnings
+## Why MCP Matters - Key Learnings
 
 Through this course and hands-on development, I learned why **Model Context Protocol is transforming how we build AI applications**:
 
@@ -26,10 +39,10 @@ Through this course and hands-on development, I learned why **Model Context Prot
 
 Just as HTTP standardized web communication, **MCP is becoming the standard for AI agent communication**. This matters because:
 
-- **🔌 Universal Connectivity** - Any MCP client can connect to any MCP server, creating an ecosystem of interoperable AI tools
-- **🔍 Dynamic Discovery** - AI assistants can discover and use new capabilities on the fly without hardcoding integrations
-- **🔐 Secure by Design** - Standardized security patterns protect sensitive data while enabling powerful integrations
-- **📈 Enterprise-Ready** - Access corporate data, confidential information, and personal sources securely
+- **Universal Connectivity** - Any MCP client can connect to any MCP server, creating an ecosystem of interoperable AI tools
+- **Dynamic Discovery** - AI assistants can discover and use new capabilities on the fly without hardcoding integrations
+- **Secure by Design** - Standardized security patterns protect sensitive data while enabling powerful integrations
+- **Enterprise-Ready** - Access corporate data, confidential information, and personal sources securely
 
 ### Core Principles I Applied
 
@@ -47,7 +60,7 @@ MCP enables AI to access exactly the context it needs—files, databases, APIs�
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ### `/MCP-Oreilly-training/`
 Original O'Reilly Live Training course materials including:
@@ -58,7 +71,7 @@ Original O'Reilly Live Training course materials including:
 
 ### My Custom MCP Agents
 
-#### 🎨 `/content-design-assistant/`
+#### `/content-design-assistant/`
 **Purpose:** Help UX writers and content designers create better content
 
 **Tools:**
@@ -70,7 +83,7 @@ Original O'Reilly Live Training course materials including:
 
 **Use Cases:** Review UI copy, improve error messages, check microcopy, audit accessibility
 
-#### 📝 `/meeting-notes-organizer/`
+#### `/meeting-notes-organizer/`
 **Purpose:** Extract actionable insights from meeting transcripts
 
 **Tools:**
@@ -83,7 +96,7 @@ Original O'Reilly Live Training course materials including:
 
 **Use Cases:** Process Teams/Zoom transcripts, track action items, document decisions, create follow-ups
 
-#### 📚 `/documentation-helper/`
+#### `/documentation-helper/`
 **Purpose:** Search and understand technical documentation
 
 **Tools:**
@@ -98,7 +111,7 @@ Original O'Reilly Live Training course materials including:
 
 ---
 
-## 🔧 Development Tools & SDKs I Used
+## Development Tools & SDKs I Used
 
 ### Primary Stack: Python + FastMCP
 
@@ -110,10 +123,10 @@ All three agents built with:
 
 ### Why Python + FastMCP?
 
-✅ **Rapid Development** - FastMCP handles all protocol complexity  
-✅ **Type Safety** - Python type hints for reliable tools  
-✅ **Simple Deployment** - No web servers needed, just STDIO  
-✅ **Great Documentation** - Clear examples and patterns  
+**Rapid Development** - FastMCP handles all protocol complexity  
+**Type Safety** - Python type hints for reliable tools  
+**Simple Deployment** - No web servers needed, just STDIO  
+**Great Documentation** - Clear examples and patterns  
 
 ### Development Workflow
 
@@ -130,7 +143,7 @@ npx @modelcontextprotocol/inspector
 
 ---
 
-## 🌐 Integration Examples
+## Integration Examples
 
 ### Claude Desktop Integration
 
@@ -182,7 +195,7 @@ Each agent can be extended to:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Explore the Agents
 
@@ -219,7 +232,7 @@ npx @modelcontextprotocol/inspector
 
 ---
 
-## 💡 What I Learned
+## What I Learned
 
 ### Technical Skills
 - Building MCP servers with FastMCP
@@ -245,7 +258,7 @@ MCP opens up possibilities for:
 
 ---
 
-## 📚 Resources
+## Resources
 
 ### Official MCP Resources
 - [MCP Documentation](https://modelcontextprotocol.io/)
@@ -259,7 +272,7 @@ MCP opens up possibilities for:
 
 ---
 
-## 👤 About Me
+## About Me
 
 **Jen Kelleman**  
 Principal Content Designer @ Microsoft
@@ -268,9 +281,9 @@ I'm passionate about making AI accessible and useful for real work. These MCP ag
 
 ### Connect
 
-- 💼 [LinkedIn](https://linkedin.com/in/jenniferkelleman)
-- ✍️ [Medium](https://jenkelleman.medium.com)
-- 🌐 [AI Content Design Handbook](https://jkelleman.github.io/ai-content-design-handbook/)
+- [LinkedIn](https://linkedin.com/in/jenniferkelleman)
+- [Medium](https://jenkelleman.medium.com)
+- [AI Content Design Handbook](https://jkelleman.github.io/ai-content-design-handbook/)
 
 ---
 

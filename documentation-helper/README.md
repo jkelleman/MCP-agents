@@ -2,7 +2,7 @@
 
 A Model Context Protocol (MCP) server that helps you search, understand, and work with documentation files.
 
-## 🎯 Features
+## Features
 
 ### Tools Available
 
@@ -46,7 +46,7 @@ A Model Context Protocol (MCP) server that helps you search, understand, and wor
 
 - **`documentation_review_prompt`** - Comprehensive documentation review template
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.10+
@@ -76,7 +76,7 @@ uv run python -m documentation_helper.server
 uv run mcp run documentation_helper/server.py
 ```
 
-## 💡 Usage Examples
+## Usage Examples
 
 ### Example 1: Search Documentation
 
@@ -94,9 +94,9 @@ search_documentation("authentication", "./docs")
 check_documentation_completeness("./docs")
 
 # Returns:
-# ✅ README file
-# ✅ Getting started guide
-# ❌ API documentation
+# README file
+# Getting started guide
+# API documentation
 # Completeness Score: 67%
 ```
 
@@ -119,7 +119,7 @@ generate_doc_template("api")
 # Returns ready-to-use template with placeholders
 ```
 
-## 🔧 Integration with Claude Desktop
+## Integration with Claude Desktop
 
 Add to your Claude Desktop config (`claude_desktop_config.json`):
 
@@ -139,7 +139,7 @@ Add to your Claude Desktop config (`claude_desktop_config.json`):
 }
 ```
 
-## 📋 Testing with MCP Inspector
+## Testing with MCP Inspector
 
 ```bash
 # Install MCP Inspector
@@ -149,15 +149,15 @@ npx @modelcontextprotocol/inspector
 uv run python -m documentation_helper.server
 ```
 
-## 💼 Use Cases
+## Use Cases
 
 **Perfect for:**
-- ✅ Finding specific information in large documentation sets
-- ✅ Onboarding new team members (search for concepts)
-- ✅ Auditing documentation completeness
-- ✅ Creating consistent documentation templates
-- ✅ Discovering code examples
-- ✅ Technical writing and documentation maintenance
+- Finding specific information in large documentation sets
+- Onboarding new team members (search for concepts)
+- Auditing documentation completeness
+- Creating consistent documentation templates
+- Discovering code examples
+- Technical writing and documentation maintenance
 
 **Works with:**
 - Markdown (.md)
@@ -166,31 +166,31 @@ uv run python -m documentation_helper.server
 - AsciiDoc (.adoc)
 - HTML (.html)
 
-## 🎨 Best Practices
+## Best Practices
 
 ### For Better Results:
 
-✅ **Organize documentation**
+**Organize documentation**
 - Keep related docs in subdirectories
 - Use consistent naming conventions
 - Include README in each major section
 
-✅ **Use clear headings**
+**Use clear headings**
 - Markdown headings help with summarization
 - Structure documents logically
 - Use heading levels appropriately
 
-✅ **Include code examples**
+**Include code examples**
 - Use fenced code blocks with language tags
 - ````python, ````javascript, etc.
 - Add comments explaining examples
 
-✅ **Cross-reference**
+**Cross-reference**
 - Link related documentation
 - Create an index or table of contents
 - Use consistent terminology
 
-## 🔍 Search Tips
+## Search Tips
 
 **Effective searches:**
 ```python
@@ -213,7 +213,7 @@ search_documentation("how to")
 search_documentation("a")
 ```
 
-## 🛠️ Development
+## Development
 
 ```bash
 # Run in development mode
@@ -223,7 +223,7 @@ uv run python server.py
 python -c "from server import search_documentation; print(search_documentation('test', '.'))"
 ```
 
-## 📚 Integration Ideas
+## Integration Ideas
 
 Combine with:
 - **CI/CD** - Automated documentation checks
@@ -232,7 +232,7 @@ Combine with:
 - **Knowledge bases** - Index and search documentation
 - **Static site generators** - Validate documentation structure
 
-## 🤝 Contributing
+## Contributing
 
 Built for the MCP community. Contributions welcome!
 

@@ -2,7 +2,7 @@
 
 A Model Context Protocol (MCP) server that processes meeting transcripts and notes to extract actionable insights.
 
-## 🎯 Features
+## Features
 
 ### Tools Available
 
@@ -45,7 +45,7 @@ A Model Context Protocol (MCP) server that processes meeting transcripts and not
 
 - **`meeting_analysis_prompt`** - Comprehensive meeting analysis template
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.10+
@@ -75,7 +75,7 @@ uv run python -m meeting_notes_organizer.server
 uv run mcp run meeting_notes_organizer/server.py
 ```
 
-## 💡 Usage Examples
+## Usage Examples
 
 ### Example 1: Extract Action Items
 
@@ -100,8 +100,8 @@ extract_action_items(transcript)
 identify_decisions(transcript)
 
 # Returns:
-# ✅ Approved: Schedule follow-up meeting for January 15th
-# 📌 Decided: Sarah will create design mockups
+# Approved: Schedule follow-up meeting for January 15th
+# Decided: Sarah will create design mockups
 ```
 
 ### Example 3: Generate Follow-up Email
@@ -117,7 +117,7 @@ generate_followup_email(
 # Returns professionally formatted email ready to send
 ```
 
-## 🔧 Integration with Claude Desktop
+## Integration with Claude Desktop
 
 Add to your Claude Desktop config (`claude_desktop_config.json`):
 
@@ -137,7 +137,7 @@ Add to your Claude Desktop config (`claude_desktop_config.json`):
 }
 ```
 
-## 📋 Testing with MCP Inspector
+## Testing with MCP Inspector
 
 ```bash
 # Install MCP Inspector
@@ -147,15 +147,15 @@ npx @modelcontextprotocol/inspector
 uv run python -m meeting_notes_organizer.server
 ```
 
-## 💼 Use Cases
+## Use Cases
 
 **Perfect for:**
-- ✅ Team standups and syncs
-- ✅ Project planning meetings
-- ✅ Client calls
-- ✅ Strategy sessions
-- ✅ Retrospectives
-- ✅ All-hands meetings
+- Team standups and syncs
+- Project planning meetings
+- Client calls
+- Strategy sessions
+- Retrospectives
+- All-hands meetings
 
 **Input formats:**
 - Manual meeting notes
@@ -163,26 +163,26 @@ uv run python -m meeting_notes_organizer.server
 - Voice-to-text conversions
 - Slack thread summaries
 
-## 🎨 Best Practices
+## Best Practices
 
 ### For Better Results:
 
-✅ **Include speaker names** when possible
+**Include speaker names** when possible
 - "John: We should..." works better than just the text
 
-✅ **Mark action items clearly** 
+**Mark action items clearly** 
 - Use words like "will", "should", "needs to"
 
-✅ **Capture timeframes**
+**Capture timeframes**
 - Mention "by Friday", "next week", specific dates
 
-✅ **Note decisions explicitly**
+**Note decisions explicitly**
 - Use "we decided", "agreed to", "approved"
 
-✅ **Flag concerns**
+**Flag concerns**
 - Mention "blocker", "risk", "concern" to track issues
 
-## 🛠️ Development
+## Development
 
 ```bash
 # Run in development mode
@@ -192,7 +192,7 @@ uv run python server.py
 python -c "from server import extract_action_items; print(extract_action_items('Your transcript'))"
 ```
 
-## 📚 Integration Ideas
+## Integration Ideas
 
 Combine with:
 - **Calendar APIs** - Auto-create follow-up meetings
@@ -200,7 +200,7 @@ Combine with:
 - **Email** - Auto-send follow-up summaries
 - **Slack/Teams** - Post summaries to channels
 
-## 🤝 Contributing
+## Contributing
 
 Built for the MCP community. Contributions welcome!
 
