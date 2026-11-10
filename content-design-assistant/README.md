@@ -2,7 +2,7 @@
 
 A Model Context Protocol (MCP) server that helps content designers and UX writers create clear, accessible, and user-friendly content.
 
-## 🎯 Features
+## Features
 
 ### Tools Available
 
@@ -40,7 +40,7 @@ A Model Context Protocol (MCP) server that helps content designers and UX writer
 - **`content_review_prompt`** - Comprehensive content review template
 - **`microcopy_suggestions`** - UI element microcopy guidance
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.10+
@@ -70,7 +70,7 @@ uv run python -m content_design_assistant.server
 uv run mcp run content_design_assistant/server.py
 ```
 
-## 💡 Usage Examples
+## Usage Examples
 
 ### Example 1: Review an Error Message
 
@@ -99,7 +99,7 @@ suggest_alternatives("utilize")
 # Returns: ['use', 'apply'] with usage guidance
 ```
 
-## 🔧 Integration with Claude Desktop
+## Integration with Claude Desktop
 
 Add to your Claude Desktop config (`claude_desktop_config.json`):
 
@@ -119,7 +119,7 @@ Add to your Claude Desktop config (`claude_desktop_config.json`):
 }
 ```
 
-## 📋 Testing with MCP Inspector
+## Testing with MCP Inspector
 
 ```bash
 # Install MCP Inspector
@@ -129,31 +129,31 @@ npx @modelcontextprotocol/inspector
 uv run python -m content_design_assistant.server
 ```
 
-## 🎨 Content Design Principles
+## Content Design Principles
 
 This server follows UX writing best practices:
 
-✅ **Clarity First**
+**Clarity First**
 - Use plain language
 - Be specific and concrete
 - Avoid jargon
 
-✅ **Accessibility Always**
+**Accessibility Always**
 - Write for screen readers
 - Use descriptive link text
 - Keep it simple
 
-✅ **Tone Matters**
+**Tone Matters**
 - Be professional yet friendly
 - Show empathy
 - Guide, don't blame
 
-✅ **Action-Oriented**
+**Action-Oriented**
 - Tell users what to do
 - Provide clear next steps
 - Make it easy to succeed
 
-## 🛠️ Development
+## Development
 
 ```bash
 # Run in development mode
@@ -163,14 +163,14 @@ uv run python server.py
 python -c "from server import analyze_readability; print(analyze_readability('Your text here'))"
 ```
 
-## 📚 Resources
+## Resources
 
 - [UX Writing Best Practices](https://uxwritinghub.com/)
 - [Content Design London](https://contentdesign.london/)
 - [Material Design Writing Guidelines](https://m3.material.io/foundations/content-design)
 - [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/)
 
-## 🤝 Contributing
+## Contributing
 
 Built for the MCP community. Contributions welcome!
 
